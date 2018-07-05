@@ -1,6 +1,6 @@
-# Your Plugin Name
+nativescript-detect-root
 
-Add your plugin badges here. See [nativescript-urlhandler](https://github.com/hypery2k/nativescript-urlhandler) for example.
+Add your plugin badges here. See [nativescript-detect-root](https://github.com/alangiovannipc/nativescript-plugin-rootBeer) for example.
 
 Then describe what's the purpose of your plugin. 
 
@@ -15,7 +15,7 @@ Describe the prerequisites that the user need to have installed before using you
 Describe your plugin installation steps. Ideally it would be something like:
 
 ```javascript
-tns plugin add <your-plugin-name>
+tns plugin add nativescript-detect-root
 ```
 
 ## Usage 
