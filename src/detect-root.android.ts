@@ -4,14 +4,15 @@ import { android as androidApp } from 'tns-core-modules/application';
 declare const android: any;
 declare const java: any;
 declare const com: any;
-const _check:any = null;
+let _check:any;
 
 function getInstanceRootBeer():any{
    console.log("getting the root instance");
    if(_check){
       return _check;
    }else{
-      return new com.scottyab.rootbeer.RootBeer(androidApp.context);
+      _check = new com.scottyab.rootbeer.RootBeer(androidApp.context);
+      return _check;
    }
 }
 
